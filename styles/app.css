@@ -42,7 +42,7 @@ body {
 }
 
 .logout-link {
-  color: #07c;
+  color: #9199a1;
   display: inline-block;
   padding: 17px 0;
   text-decoration: none;
@@ -134,7 +134,20 @@ body {
   background: green;
 }
 
+.job__status--proposal-in-progress {
+  background: #0000FF;
+}
+
+.job__status--proposal-sent {
+  background: #6699FF;
+}
+
+.job__status--mission-accepted {
+  background-color: #33CC00;
+}
+
 .job__content {
+  font-size: 15px;
   padding: 15px;
   height: 130px;
   text-decoration: none;
@@ -148,6 +161,12 @@ body {
 
 .job__mission {
   color: #71a5cb;
+}
+
+.job__client-wrapper {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .job__client {
