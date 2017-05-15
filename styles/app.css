@@ -48,6 +48,7 @@ body {
   color: #9199a1;
   display: inline-block;
   padding: 17px 0;
+  line-height: 28px;
   text-decoration: none;
 }
 
@@ -177,8 +178,7 @@ body {
 }
 
 .job__start-date {
-  color: #5fba7d;
-  font-weight: 700;
+  color: #f98c71;
 }
 
 .job__duration {
@@ -187,8 +187,7 @@ body {
 }
 
 .job__location {
-  color: #f98c71;
-  font-weight: 700;
+  color: #07c;
 }
 
 .job__footer {
